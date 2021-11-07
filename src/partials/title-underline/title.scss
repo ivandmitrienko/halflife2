@@ -1,0 +1,94 @@
+
+.title { 
+    margin: 51px 0 0 81px;
+    display: inline-flex;  
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+    &.Leftpadd{
+    margin: 51px 0 0 50px;
+    display: inline-flex;  
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+    
+    }
+    &.White{
+        color: #ffffff;
+        margin: 0;
+    }
+    &.Whitecontacts{
+        color: #ffffff;
+        margin: 0;
+        padding-left: 23px;
+    }
+   
+   
+    
+    &__yellow {
+        margin-right: 10px;
+        &:first-letter{
+            font-size: 50px;
+            color: #ffc600;
+        }
+     
+    }
+
+    &__weight {
+        &:first-letter{
+            font-size: 50px;
+        }  
+    }
+        
+        
+    
+}
+.underline { 
+    &:after{ 
+        content: '';
+        display: flex;
+        flex: 0 0 auto;
+        height: 1px;
+        width: 110px;
+        margin-left: 160px;
+        background-color: #c5c5c5;   
+    } 
+    &.Line:after {
+        margin-left: 88px;
+        width: 95px;
+        background-color: #ffffff;
+    } 
+
+    &.Teamunderline:after{
+        width: 70px;
+        margin-left: 95px;
+    }
+
+
+
+    &.TestimonialsLine:after{
+        width: 65px;
+        margin-left: 60px;
+
+    }
+    &.Blogsline::after{
+        width: 65px;
+        margin-left: 50px;   
+    }
+    &.Contactline::after {
+        width: 120px;
+        margin-left: 23px;
+        background-color: #c5c5c5; 
+
+        
+
+
+    }
+}
+
+
+
+
+

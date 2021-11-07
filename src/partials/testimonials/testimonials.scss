@@ -1,0 +1,101 @@
+.testimonials{
+    background-color: #000000 ;
+    
+}
+#parallax{
+    position: relative;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+
+}
+.testimonials-top{ 
+    padding: 55px 0 0 49px;  
+}
+.testimonials-content {
+    padding: 24px 0 84px 0;
+    max-width: 835px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width:768px) {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+}
+.text-inner {
+    @media screen and (max-width:768px) {
+       order: 2;
+    }
+    
+		&__first--white-color {
+            color: #ffffff;
+            @media screen and (max-width:768px) {
+               font-size: 12px;
+            }
+        }
+
+
+		&__second--white-color {
+            color: #ffffff;
+            @media screen and (max-width:768px) {
+                font-size: 12px;
+             }
+        }
+}
+.text {
+    &--testimonials{
+        max-width: 592px;
+        padding: 0 0 84px 91px ;
+        @media screen and (max-width:768px) {
+            padding: 0 30px 30px 50px;
+        }
+    }
+}
+
+
+.testimonials-item {
+    @media screen and (max-width:768px) {
+        order: 1;
+     }
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 82px;
+    @media screen and (max-width:768px) {
+        padding-bottom: 20px;
+     }
+
+		&__img {
+            overflow: hidden;
+            border: 2px solid #ffa800;
+            width: 127px;
+            height: 127px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 23px;
+            
+            & img {
+                width: 100%;    
+               
+            }
+
+        }
+
+		&__name {
+            font-weight: bold;
+        }
+
+		&__position {
+            font-style: oblique;
+        }
+}

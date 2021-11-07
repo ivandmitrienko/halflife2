@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.scss">
+    <title>Graduation project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/Btn.js" defer></script>
+    <script src="./js/parallax.min.js"defer></script>
+    <script src="./js/testimonials.js" defer> </script>
+    <script src="./js/lightbox-plus-jquery.js" defer></script>
+  </head>
+  <body> 
+    <header>
+      <div class="container">      
+        <div id="head" class="header-inner">
+          <h1 class="header-inner__title">Sublime</h1>
+          <p class="header-inner__text">Sublime: A one page responsive wordpress theme <br>
+            suitable for any kind of business represenstation.</p>
+          <a class="header-inner__link" href="https://camouf.ru/designes/ready-psd-layouts-for-saito/9108.html" target="_blank">Download the psd.</a>
+        </div>
+        <div class="header-navigation">
+          <img src="./img/header/Layer 5@1X.png" alt="soldier fartune">
+          <div class="header-navigation__inner">
+            <h2 class="header-navigation__title" data-text="We create Awesome Games"><span>We</span> create Awesome Games</h2>
+            <ul class="header-navigation__menu">
+              <a href="#about">
+                <li class="header-navigation__link" >About</li>
+              </a>
+              <a href="#development">
+                <li class="header-navigation__link" >Development</li>
+              </a>
+              <a href="#works">
+                <li class="header-navigation__link" >Projects</li>
+              </a>
+              <a href="#blog">
+                <li class="header-navigation__link" >Blog</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      @@include('./partials/about-Sublime/_about-Sublime.html')
+      @@include('./partials/Projects/_projects.html')
+      @@include('./partials/Strategic-process/_strategic.html')
+      @@include('./partials/services/_services.html')
+      @@include('./partials/team/_team.html')
+      @@include('./partials/testimonials/_testimonials.html')
+      @@include('./partials/blogs/_blogs.html')
+      @@include('./partials/contacts/_contacts.html')
+      @@include('./partials/main-layout/_main-layout.html')
+
+    </div>
+    <a id="upbutton" href="#" onclick="smoothJumpUp(); return false;"></a>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/menu.js"></script>
+
+  </body>  
+    
+</html>
